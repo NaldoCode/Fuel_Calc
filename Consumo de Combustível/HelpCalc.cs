@@ -37,7 +37,7 @@ namespace Consumo_de_Combustível
                                  $"OBS: / é sinal de divisão");
                     sw.WriteLine($"Calculo: dm x Preço");
                     sw.WriteLine("_________________________________________");
-                    sw.WriteLine($"\n\nCalculo Final: {calc.ToString("F2",CultureInfo.InvariantCulture)}L");
+                    sw.WriteLine($"\n\nCalculo Final: $ {calc.ToString("F2",CultureInfo.InvariantCulture)}");
                     sw.Close();
                 }
             }
