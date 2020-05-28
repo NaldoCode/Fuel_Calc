@@ -29,7 +29,7 @@ namespace Consumo_de_Combustível
                 {
                     sw.WriteLine($"Modelo: {Modelo}");
                     sw.WriteLine($"Distância: {Distancia}KM");
-                    sw.WriteLine($"Média KM: {Mediakm}L");
+                    sw.WriteLine($"Média KM: {Mediakm}KM");
                     sw.WriteLine($"Preço: $ {Preco.ToString("F2",CultureInfo.InvariantCulture)}");
                     sw.WriteLine($"Tipo: {Tipo}");
                     sw.WriteLine("\n_________________________________________");
